@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>University Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <script src="https://turesearch.boost.ai/chatPanel/chatPanel.js"></script>
+  <script src="boostai.js"></script>
+
+  <!-- Top banner -->
+  <header class="banner">
+    <img src="logo.png" alt="University Logo">
+  </header>
+
+  <!-- Main content -->
+  <main class="container">
+    <button class="chat-button" onclick="javascript:openChat(5419)">Start chatting</button> <!-- Imagining + 1st person -->
+      <!-- <button class="chat-button" onclick="javascript:openChat(5422)">Start chatting</button> # Imagining + 2nd person -->
+      <!-- <button class="chat-button" onclick="javascript:openChat(5425)">Start chatting</button> # Recall + 1st person -->
+      <!-- <button class="chat-button" onclick="javascript:openChat(5428)">Start chatting</button> # Recall + 2nd person -->
+    <p></p>
+    <form class="form">
+      <input type="text" id="participant-id" placeholder="Participant ID" required>
+
+      
+
+      <div class="question formfield">
+        <label>Please reflect on...</label>
+        <textarea id="textarea" rows="5"></textarea>
+      </div>
+
+      <div class="question" id="study-level">
+        <p>What is your level of study?</p>
+        <label>
+          <input type="radio" name="level" required>
+          Undergraduate
+        </label>
+        <label>
+          <input type="radio" name="level">
+          Graduate
+        </label>
+        <label>
+          <input type="radio" name="level">
+          PhD
+        </label>
+      </div>
+      <div id="likert-scale" class ="question">
+        <table class="data-table">
+        <thead>
+          <tr>
+            <th>The bot is...</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>enthusiastic</td>
+            <td><input type="radio" value="1" name="enthusiasm" required /></td>
+            <td><input type="radio" value="2" name="enthusiasm" /></td>
+            <td><input type="radio" value="3" name="enthusiasm"/></td>
+            <td><input type="radio" value="4" name="enthusiasm"/></td>
+            <td><input type="radio" value="5" name="enthusiasm"/></td>
+          </tr>
+          <tr>
+            <td>knowledgeable</td>
+            <td><input type="radio" value="1" name="knowledgeable" required/></td>
+            <td><input type="radio" value="2" name="knowledgeable"/></td>
+            <td><input type="radio" value="3" name="knowledgeable"/></td>
+            <td><input type="radio" value="4" name="knowledgeable"/></td>
+            <td><input type="radio" value="5" name="knowledgeable"/></td>
+          </tr>
+        </tbody>
+        </table>
+      </div>
+      <p></p>
+      <button class="main-button">Submit</button>
+    </form>
+  </main>
+
+</body>
+</html>
