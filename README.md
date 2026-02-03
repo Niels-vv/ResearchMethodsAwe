@@ -1,6 +1,8 @@
 # Chatbots on Awe for TU/e Research Methods
 This repo contains HTML and CSS example files for a website embedding chatbots on awe. Clone the repo and edit the files to your needs. HTML and CSS files contain examples of question types and layout which you can use and adjust to your liking.
 
+A running example of this repo can be seen at: https://niels-vv.github.io/.
+
 ## Chatbots
 Chatting with the chatbot is embedded into the page (see index.html) using the boostai.js file. By default there are 4 chatbots that can be used, each talking about and reflecting on everyday awe from a sunset. Each agent goes through different aspects of awe; these are derived from psychology literature on awe, see e.g. https://psycnet.apa.org/record/2018-35661-001 for the different subscales of the Awe-S scale. It addresses each subscale in 1 or 2 interactions.
 
