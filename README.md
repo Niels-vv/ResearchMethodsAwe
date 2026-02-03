@@ -37,3 +37,9 @@ _coming soon_
 
 ## Chatbot data collection
 Please note that the website does not collect data of the chatbot conversations. This data is stored on the development platform (which I unfortunately cannot grant you access to). If you wish to access the conversations, you can request so by contacting me (Niels); I need to know which chatbot was used and a rough time estimate.
+
+## Useful related works
+- White paper on psychology of awe by Summer Allen: https://ggsc.berkeley.edu/images/uploads/GGSC-JTF_White_Paper-Awe_FINAL.pdf.
+- Position paper on awe in HCI: https://www.scienceopen.com/hosted-document?doi=10.14236/ewic/BCSHCI2025.18. In particular sections 2 (psychology of awe), 3 (related works), and 4 with an emphasis on 4.2 (potential HCI design methods for awe).
+- Example of Awe in HCI (VR), by Miller et al.: https://dl.acm.org/doi/10.1145/3563657.3595998
+- Anthropmorphic CA, representing and talking with animals, by J. Lee et al.: https://arxiv.org/html/2411.06060v1.
