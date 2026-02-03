@@ -21,8 +21,8 @@ var options = {
     },
     settings: {
       requestFeedback: false,
-      startTriggerActionId: 5281,
-      authStartTriggerActionId: 5281,
+      startTriggerActionId: 0000,
+      authStartTriggerActionId: 0000,
       enableProactivityForSmallDevices: true,
       alwaysFullscreen: false,
     },
