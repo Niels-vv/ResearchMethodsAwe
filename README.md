@@ -36,7 +36,7 @@ Either you can deploy the website through Github pages: https://pages.github.com
 _coming soon_
 
 ## Chatbot data collection
-Please note that the website does not collect data of the chatbot conversations. This data is stored on the development platform (which I unfortunately cannot grant you access to). If you wish to access the conversations, you can request so by contacting me (Niels); I need to know which chatbot was used and a rough time estimate.
+Please note that the website does not collect data of the chatbot conversations. This data is stored on the development platform (which I unfortunately cannot grant you access to). If you wish to access the conversations, you can request so by contacting me (Niels). For this I need to know which chatbot was used and a rough time estimate; it also helps (also for your own research) to have participants enter their participant ID so you can easily connect the chat with the participant.
 
 ## Useful related works
 - White paper on psychology of awe by Summer Allen: https://ggsc.berkeley.edu/images/uploads/GGSC-JTF_White_Paper-Awe_FINAL.pdf.
