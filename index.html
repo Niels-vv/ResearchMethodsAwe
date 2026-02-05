@@ -16,10 +16,13 @@
 
   <!-- Main content -->
   <main class="container">
-    <button class="chat-button" onclick="javascript:openChat(5419)">Start chatting</button> <!-- Imagining + 1st person -->
-      <!-- <button class="chat-button" onclick="javascript:openChat(5422)">Start chatting</button> # Imagining + 2nd person -->
-      <!-- <button class="chat-button" onclick="javascript:openChat(5425)">Start chatting</button> # Recall + 1st person -->
-      <!-- <button class="chat-button" onclick="javascript:openChat(5428)">Start chatting</button> # Recall + 2nd person -->
+    <button class="chat-button" onclick="javascript:openChat(5419)">
+      Start chatting
+      <div class="loader" id="chat-loader" style="display:none;"></div>
+    </button> <!-- Imagining + 1st person -->
+      <!-- <button class="chat-button" onclick="javascript:openChat(5422)">Start chatting <div class="loader" id="chat-loader" style="display:none;"></div></button> # Imagining + 2nd person -->
+      <!-- <button class="chat-button" onclick="javascript:openChat(5425)">Start chatting <div class="loader" id="chat-loader" style="display:none;"></div></button> # Recall + 1st person -->
+      <!-- <button class="chat-button" onclick="javascript:openChat(5428)">Start chatting <div class="loader" id="chat-loader" style="display:none;"></div></button> # Recall + 2nd person -->
     <p></p>
     <form class="form">
       <input type="text" id="participant-id" placeholder="Participant ID" required>
@@ -85,5 +88,6 @@
 
 </body>
 </html>
+
 
 
