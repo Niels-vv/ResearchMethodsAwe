@@ -109,6 +109,7 @@ body {
   overflow: hidden;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
   text-align: left;
+  float: left;
 }
 
 .data-table thead {
@@ -137,3 +138,4 @@ body {
 .data-table th {
   font-weight: 600;
 }
+
