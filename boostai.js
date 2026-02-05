@@ -30,8 +30,13 @@ var options = {
 };
 
 function openChat(intentID) {  
+  var loader = document.getElementById("chat-loader");
+  loader.style.display= "block";
+
   options.chatPanel.settings.startTriggerActionId = intentID;
   options.chatPanel.settings.authStartTriggerActionId = intentID;
   var boost = window.boostInit("turesearch", options);
   boost.chatPanel.show();
+
+  loader.style.display= "none";
 }
