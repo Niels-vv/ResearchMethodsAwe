@@ -10,6 +10,21 @@ The 4 variations come from a factorial combination of 2 factors: (1) Recalling a
 
 The HTML file contains a button to open the chat. This calls the "openChat" function from boostai.js, passing a chatbot ID. The code shows how to access each variant with a different ID.
 
+### Chatbot content / flow
+Focusing on the 2nd person Imagined chatbot, it currently has three parts (all of which can be adjusted): 
+- Asking for participant ID. This helps in connecting the chatbot logs with the other data for that participant (e.g. interviews, or their answers on the website). This is needed because the chat logs are stored at the servers of chatbot platform, and thus are disconnected from any info the participants may on the website. Without this ID you could still connect the participant with the chat logs by date/time.
+- The actual awe-related content of the conversation. This has the following flow:
+  * An introductory message to set the scene; asking the user to go on an imaginary walk through the forest in the evening while the sun is setting, and describing some of the environment like sunlight coming through leaves and beetles flying by.
+  * Further describing the scene; they are at an open field with the sun setting behind the trees in front of colourful clouds. Asking the user if they can imagine the breeze of the wind.
+  * After this it goes through the different aspects of awe, focusing on a particular subscale each time (though of course they're overlapping as every subscale aspect can always be present).
+    1 **Altered time perception**. The bot asks the user to imagine sitting down to watch a field of colorful flowers while the shadows of the trees from the sunset's light dances on the flowers. Then it asks the user how they feel while sitting down to pause and take in the view, as such scenes can make people feel captivated by the moment.
+    2 **Self-loss**. It first asks the user to suggest a place in the forest to go to next and how the sunset looks from there. Then asks if the user feels more content and less concerned about their own struggles.
+    3 **Connectedness**. Talks about a ray of sunshine, how it traveled from far away and is now feeding the plants that other living beings eat; it asks the user how the sunlight feels on their skin.
+    4 **Vastness**. The bot focuses on the vastness of the sun and the clouds and how such scenes can make one feel like they're in the presence of something larger. Then asks how the user experiences the sunset from here.
+    5 **Physiological**. It tells the user to imagine walking through bushes, watching as the sunlight dances through the branches. It asks if the user feels any bodily sensations, as seeing such beauty can cause e.g. tingling.
+    6 **Accommodation**. It first asks the user to lie down in grass and watch the sun and clouds, and notice other critters around them. It then asks if the user is able to make sense of the experience, as such scenes can be difficult to process.
+- Finally it runs an exit message saying: "Thanks for chatting! To finish the study, please fill in this code in the form: 33jd". This was for my own study to ensure participants finished the bot; they then had to fill in the code to be able to continue the study. Think of whether this might be useful for you as well or not.
+
 ### Customizability
 Customizations can be done on request; contact me (Niels) about this. Think for instance of:
 - Language, e.g. Dutch instead of English.
